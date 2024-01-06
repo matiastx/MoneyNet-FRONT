@@ -1,6 +1,6 @@
 import { Formik } from "formik";
 
-import LoginInput from "../../components/UX/LoginInput/LoginInput";
+import LoginInput from "../../Components/UX/LoginInput/LoginInput";
 import Submit from "../../components/UX/Submit/Submit";
 
 import { Form, LoginContainerStyled, LoginEmailStyled } from "./RegisterStyles";
@@ -8,7 +8,7 @@ import { registerInitialValues } from "../../../formik/initialValues";
 import { registerValidationSchema } from "../../../formik/validationSchema";
 import { createUser } from "../../../axios/axios-user";
 import {useDispatch} from "react-redux";
-import { setCurrentUser } from "../../../Redux/user/userSlice";
+import { setCurrentUser } from "../../../redux/user/userSlice";
 import useRedirect from "../../../hooks/useRedirect";
 
 const Register = () => {

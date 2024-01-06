@@ -1,5 +1,5 @@
 import { formatPrice } from "../../../Utils/FormatPrice";
-import { formatDate } from "../../../Utils/FormatDate";
+import { formatDate } from "";
 import OrderStatus from "../../Components/UX/OrderStatus/OrderStatus";
 
 import {

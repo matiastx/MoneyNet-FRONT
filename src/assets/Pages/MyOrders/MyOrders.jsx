@@ -10,7 +10,7 @@ import {
 } from "./MyOrders.Styled";
 import { useEffect } from "react";
 import { getOrders } from "../../../axios/axios-orders";
-import { clearError, fetchOrdersFail } from "../../../redux/orders/ordersSlice";
+import { clearError, fetchOrdersFail } from "../../../Redux/orders/ordersSlice";
 
 
 const MyOrders = () => {

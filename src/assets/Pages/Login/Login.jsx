@@ -1,6 +1,5 @@
 import { Formik } from "formik";
 import { Link } from "react-router-dom";
-import LoginInput from "../../Components/UX/LoginInput/LoginInput";
 import Submit from "../../components/UX/Submit/Submit";
 import { Form, LoginContainerStyled, LoginEmailStyled } from "./LoginStyles";
 import { loginInitialValues } from "../../../formik/initialValues";
@@ -9,6 +8,7 @@ import { loginUser } from "../../../axios/axios-user";
 import { useDispatch } from "react-redux";
 import { setCurrentUser } from "../../../redux/user/userSlice";
 import useRedirect from "../../../hooks/useRedirect";
+import LoginInput from "../../Components/UX/LoginInput/LoginInput";
 
 const Login = () => {
   const dispatch = useDispatch();

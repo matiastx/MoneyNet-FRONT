@@ -1,0 +1,11 @@
+@import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto+Condensed:wght@300&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,600;8..144,700&display=swap);
+
+html {
+  scroll-behavior: smooth;
+}
+
+#root {
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+} 

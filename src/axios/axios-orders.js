@@ -1,5 +1,5 @@
 import axios from "axios";
-import { createOrderFail, fetchOrdersFail, fetchOrdersStart, fetchOrdersSuccess } from "../redux/orders/ordersSlice";
+import { createOrderFail, fetchOrdersFail, fetchOrdersStart, fetchOrdersSuccess } from "../Redux/orders/ordersSlice";
 
 import {BASE_URL} from "../Utils/constantes"
 

@@ -1,6 +1,6 @@
-import { formatPrice } from "../../../Utils/FormatPrice";
+import { formatPrice, formatDate } from "../../../Utils/FormatPrice";
 import OrderStatus from "../../Components/UX/OrderStatus/OrderStatus";
-import formatDate from "../../../Utils/FormatDate";
+
 
 import {
   IdStyled,

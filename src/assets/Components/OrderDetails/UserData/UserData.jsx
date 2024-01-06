@@ -8,6 +8,7 @@ import { useNavigate } from "react-router-dom";
 import { PrecioDolar } from "../../../../Utils/constantes";
 import { clearCart } from "../../../../Redux/cart/cartSlice";
 import { toggleModalHidden, changeModal } from '../../../../Redux/modal/modalSlice';
+import { clearOrders } from "../../../../Redux/orders/ordersSlice";
 
 const UserDataForm = ({cartItems, price}) => {
 
@@ -40,6 +41,7 @@ const UserDataForm = ({cartItems, price}) => {
     if(modal){
     dispatch(toggleModalHidden())
     dispatch(changeModal({title, color}))
+
     }
 }
 
@@ -70,6 +72,7 @@ const UserDataForm = ({cartItems, price}) => {
                 await createOrder(OrderData, dispatch, userToken);
                 navigate("/")  
                 dispatch(clearCart())
+                dispatch(clearOrders())
                 ShowModal('Pedido relizado exitosamente!', 'var(--CelesteClaro)')
               } catch (error) {
                 alert("Error al crear la orden")

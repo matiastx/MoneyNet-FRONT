@@ -9,7 +9,7 @@ import {
 import { useDispatch, useSelector } from "react-redux";
 import { setCurrentUser, toggleHiddenMenu } from "../../../../Redux/user/userSlice";
 import { useNavigate } from "react-router-dom";
-import { clearOrders } from "../../../../redux/orders/ordersSlice";
+import { clearOrders } from "../../../../Redux/orders/ordersSlice";
 
 const ModalUser = () => {
   const {hiddenMenu, currentUser} = useSelector((state) => state.user);

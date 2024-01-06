@@ -5,7 +5,7 @@ import { registerInitialValues } from "../../../formik/initialValues";
 import { registerValidationSchema } from "../../../formik/validationSchema";
 import { createUser } from "../../../axios/axios-user";
 import {useDispatch} from "react-redux";
-import { setCurrentUser } from "../../../redux/user/userSlice";
+import { setCurrentUser } from "../../../Redux/user/userSlice";
 import useRedirect from "../../../hooks/useRedirect";
 import Submit from "../../Components/UX/Submit/Submit";
 

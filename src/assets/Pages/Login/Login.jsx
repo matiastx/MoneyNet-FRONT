@@ -6,7 +6,7 @@ import { loginInitialValues } from "../../../formik/initialValues";
 import { loginValidationSchema } from "../../../formik/validationSchema";
 import { loginUser } from "../../../axios/axios-user";
 import { useDispatch } from "react-redux";
-import { setCurrentUser } from "../../../redux/user/userSlice";
+import { setCurrentUser } from "../../../Redux/user/userSlice";
 import useRedirect from "../../../hooks/useRedirect";
 import LoginInput from "../../Components/UX/LoginInput/LoginInput";
 

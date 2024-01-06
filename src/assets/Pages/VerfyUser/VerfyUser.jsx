@@ -1,7 +1,6 @@
 import { Formik } from "formik";
-import { Link } from "react-router-dom";
-import LoginInput from "../../components/UX/LoginInput/LoginInput";
-import Submit from "../../components/UX/Submit/Submit";
+import LoginInput from "../../Components/UX/LoginInput/LoginInput";
+import Submit from "../../Components/UX/Submit/Submit";
 import { Form, VerfyUserContainerStyled, LoginEmailStyled } from "./VerfyUser.Styled";
 import { verfyInitialValues } from "../../../formik/initialValues";
 import { verfyValidationSchema } from "../../../formik/validationSchema";

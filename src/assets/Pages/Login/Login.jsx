@@ -1,6 +1,6 @@
 import { Formik } from "formik";
 import { Link } from "react-router-dom";
-import Submit from "../../components/UX/Submit/Submit";
+import Submit from "../../Components/UX/Submit/Submit";
 import { Form, LoginContainerStyled, LoginEmailStyled } from "./LoginStyles";
 import { loginInitialValues } from "../../../formik/initialValues";
 import { loginValidationSchema } from "../../../formik/validationSchema";
